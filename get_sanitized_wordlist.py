@@ -51,9 +51,7 @@ if __name__ == '__main__':
         jobs = [
             p.apply_async(load_text_from_url, [url])
             for url in (WORDS_URL, BAD_WORDS_URL)]
-        wordlist, badwords = (
-            job.get().strip().splitlines()
-            for job in jobs)
+        wordlist, badwords = (job.get().split() for job in jobs)
 
     jobs = []
     with Pool(NPROCS) as p:
