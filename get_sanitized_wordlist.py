@@ -1,4 +1,4 @@
-"""Simple word sanitizer for Python 3.12.
+"""Simple word sanitizer for Python 3.12
 
 Download lists of words and bad words, and produce a sanitized list.
 """
