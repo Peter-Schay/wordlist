@@ -1,6 +1,5 @@
 # Python Demo to make a Sanitized Wordlist
 
----
  - iterators
  - parallelism
  - `pathlib.Path`
@@ -34,10 +33,9 @@
 ```
 ---
 ### Notes:
- - The _time_ command shows that Python used more CPU (_user_ + _sys_) than _real_ time, which means this ran on a computer with multiple cores.
+ - The _time_ command shows that Python used more CPU (_user_ + _sys_) than _real_ time, which means this used multiple cores.
 
- - Quixotry is a famous word due to this record-setting game!
-https://www.cross-tables.com/annotated.php?a=6517#36# 🤯
+ - Quixotry is a famous word due to this [record-setting game](https://www.cross-tables.com/annotated.php?a=6517#36#)! 🤯
 
  - Instead of `pathlib`, try `import sys` and `print`:
  ```Python
